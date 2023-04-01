@@ -1,0 +1,30 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+table{
+  border: 2px solid black;
+  text-align: center;
+}
+
+input{
+  border: 2px solid black;
+  height: 150px;
+  font-size: 2rem;
+  width: 70%;
+  text-align: center;
+  margin: 4% 0%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
