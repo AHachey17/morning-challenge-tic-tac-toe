@@ -5,23 +5,45 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+  text-align: center;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-table{
+#board{
   border: 2px solid black;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+}
+
+.box{
+  border: 2px solid black;
+  height: 100px;
+  width: 33.333%;;
+  background-color: white;
+  float: left;
   text-align: center;
 }
 
-input{
-  border: 2px solid black;
-  height: 150px;
-  font-size: 2rem;
-  width: 70%;
+.blue{
+  border: 15px solid blue;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
   text-align: center;
-  margin: 4% 0%;
+  box-sizing: border-box;
+}
+
+.red{
+  border: 15px solid red;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 
